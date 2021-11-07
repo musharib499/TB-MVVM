@@ -22,7 +22,7 @@ object ApplicationModule {
 
     @Provides
     fun provideSharedPreferences(@ApplicationContext context: Context): SharedPreferences =
-        context.getSharedPreferences(BuildConfig.APP_NAME, Context.MODE_PRIVATE)
+        context.getSharedPreferences(BuildConfig.app_name, Context.MODE_PRIVATE)
 
     @Singleton
     @Provides

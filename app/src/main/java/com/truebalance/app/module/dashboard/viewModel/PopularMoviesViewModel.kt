@@ -31,7 +31,6 @@ class PopularMoviesViewModel @Inject constructor(
         popularMoviesApi()
     }
 
-
     private fun popularMoviesApi() = viewModelScope.launch {
         repo.popularMoviesApi().collect {
             when (it.status) {

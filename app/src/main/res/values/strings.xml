@@ -2,9 +2,10 @@
 <resources>
     <string name="nav_title_upcoming">Upcoming</string>
     <string name="nav_title_popular">Popular</string>
-    <string name="app_name">Movies</string>
     <string name="nav_title_top_rated">TopRated</string>
     <string name="title_activity">Activities</string>
+    <string name="title">Movies</string>
+    <string name="welcome_nin_n_movies_world">Welcome \nin\n Movies World</string>
 
 </resources>
 
