@@ -1,0 +1,76 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="button_padding">15dp</dimen>
+    <dimen name="text_size_normal">14dp</dimen>
+    <dimen name="text_size_small">12dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_large">18dp</dimen>
+    <dimen name="text_size_xlarge">24dp</dimen>
+    <dimen name="text_size_xxlarge">30dp</dimen>
+
+
+    <dimen name="pageMargin">12dp</dimen>
+    <dimen name="betweenMargin">6dp</dimen>
+    <dimen name="tinyMargin">4dp</dimen>
+    <dimen name="xtinyMargin">2dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="mediumMargin">12dp</dimen>
+    <dimen name="xmediumMargin">18dp</dimen>
+    <dimen name="largeMargin">25dp</dimen>
+    <dimen name="xlargeMargin">50dp</dimen>
+    <dimen name="xxlargeMargin">75dp</dimen>
+
+    <dimen name="mediumPadding">18dp</dimen>
+    <dimen name="largePadding">30dp</dimen>
+
+    <dimen name="rounder_corner_dimen_50_percent">50dp</dimen>
+    <dimen name="score_bar_height">10dp</dimen>
+    <dimen name="rounder_corner_dimen">12dp</dimen>
+    <dimen name="rounder_corner_dimen_large">18dp</dimen>
+    <dimen name="rounder_corner_small_dimen">8dp</dimen>
+
+    <dimen name="mediumText">18dp</dimen>
+    <dimen name="smallText">14dp</dimen>
+
+    <dimen name="verticalImageHeight">400dp</dimen>
+    <dimen name="horizontalImageHeight">200dp</dimen>
+    <dimen name="bottomsheet_peek_height">250dp</dimen>
+    <dimen name="bottomsheet_peek_height_300">300dp</dimen>
+    <dimen name="bottomsheet_peek_height_340">380dp</dimen>
+
+    <dimen name="bottomsheet_peek_height_large">400dp</dimen>
+    <dimen name="bottomsheet_peek_height_xlarge">550dp</dimen>
+    <dimen name="bottomsheet_peek_height_xxlarge">750dp</dimen>
+    <dimen name="snobottomsheet">420dp</dimen>
+    <dimen name="tinyText">12sp</dimen>
+    <dimen name="imageNextDim">40dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="navigation_drawer_icon">20dp</dimen>
+    <dimen name="back_button_radius">75dp</dimen>
+    <dimen name="language_card_height">80dp</dimen>
+    <dimen name="brand_size">50sp</dimen>
+    <dimen name="cornersRadius">12dp</dimen>
+    <dimen name="order_add_button_width">90dp</dimen>
+    <dimen name="order_button_section_width">30dp</dimen>
+
+    <dimen name="cell_height">50dp</dimen>
+    <dimen name="row_header_width">115dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+
+
+    <!-- Overriding the default values of the tableView -->
+    <dimen name="default_row_header_width">115dp</dimen>
+    <dimen name="default_column_header_height">45dp</dimen>
+
+    <dimen name="column_height_normal">45dp</dimen>
+    <dimen name="column_height_image">80dp</dimen>
+    <dimen name="item_offset">10dp</dimen>
+
+    <dimen name="column_default_width">150dp</dimen>
+</resources>

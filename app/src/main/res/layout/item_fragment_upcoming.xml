@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="model"
+            type="com.truebalance.app.module.dashboard.model.Result" />
+    </data>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_item_fragment_home"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/ic_app"
+                android:scaleType="fitXY"
+                thumbnailFull="@{model.poster_path}"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_item_fragment_home_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{model.title}"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                app:layout_constraintEnd_toEndOf="@id/gl_end"
+                app:layout_constraintTop_toTopOf="@id/img_item_fragment_home"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toEndOf="@id/br"
+                tools:text="Name" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_item_fragment_home_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{model.overview}"
+                android:layout_marginTop="5dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                app:layout_constraintStart_toEndOf="@id/br"
+                app:layout_constraintEnd_toEndOf="@id/gl_end"
+                android:maxLines="6"
+                app:layout_constraintTop_toBottomOf="@id/txt_item_fragment_home_title"
+                tools:text="Name" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_item_fragment_home_published"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{model.release_date }"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                app:layout_constraintEnd_toEndOf="@id/gl_end"
+                app:layout_constraintTop_toBottomOf="@id/txt_item_fragment_home_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/br"
+                tools:text="22 Feb" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_item_fragment_home_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text='@{model.popularity.toString()}'
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                app:layout_constraintEnd_toEndOf="@id/gl_end"
+                app:layout_constraintTop_toBottomOf="@id/txt_item_fragment_home_published"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/br"
+                android:layout_marginBottom="10dp"
+                tools:text="22 Feb" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/br"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="end"
+                app:barrierMargin="10dp"
+                app:constraint_referenced_ids="img_item_fragment_home" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gl_end"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.99"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

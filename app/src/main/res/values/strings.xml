@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="nav_title_upcoming">Upcoming</string>
+    <string name="nav_title_popular">Popular</string>
+    <string name="app_name">Movies</string>
+    <string name="nav_title_top_rated">TopRated</string>
+    <string name="title_activity">Activities</string>
+
+</resources>
+
+

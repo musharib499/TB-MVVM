@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#586C9D</color>
+    <color name="colorOnPrimary">#ffffff</color>
+    <color name="colorPrimaryVariant">#586C9D</color>
+    <color name="colorSecondary">#586C9D</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorSecondaryVariant">#586C9D</color>
+    <color name="colorSurface">#ffffff</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorError">#FC1055</color>
+    <color name="colorOnError">#ffffff</color>
+    <color name="scrimBackground">#ffffff</color>
+    <color name="buttonTextColor">#ffffff</color>
+    <color name="tool_text_color">#ffffff</color>
+    <color name="background">#EEF3F5</color>
+    <color name="cardColor">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+</resources>
